@@ -1,0 +1,4 @@
+Database Schema
+
+create database School;
+create table student(Roll_No int primary key,Full_Name varchar(100) not null,Address varchar(255) not null,Contactno varchar(10) not null,Class int not null,unique(Contactno));
